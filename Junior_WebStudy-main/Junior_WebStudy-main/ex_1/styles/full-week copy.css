@@ -1,0 +1,37 @@
+img{
+  border: solid 3px black;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -130px auto;
+ 
+}
+
+div{
+  border: solid 3px black  ;
+  margin: 50px;
+  padding: 10px 50px;
+   background-color: rgba(212, 117, 21, 0.62);
+}
+
+body p{
+  margin: 80px auto 0px auto;
+}
+h1{
+  font-size: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+span{
+  font-family: "Fira Sans", sans-serif;
+  color: brown;
+  font-weight: bold;
+}
+
+body{
+  margin: 30px 150px;
+}
