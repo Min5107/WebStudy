@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Forms Challenge</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Contact Us</h1>
+    </head>
+    <main>
+        <form action="">
+            <section>
+                <h2>How can we help you?</h2>
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" id="username" name="username" required />
+                    </li>
+                    <li>
+                        <label for="email">Your Email-Address</label>
+                        <input type="email" id="email" name="email" required />
+                    </li>
+                    <li>
+                        <label for="phone">Your Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required minlength="5" />
+                    </li>
+                    <li>
+                        <label for="Message">Your Message</label>
+                        <textarea name="" id="Message" required minlength="10" maxlength="200"></textarea>
+                    </li>
+                    <li>
+                        <label for="channel">How did you find us?</label>
+                        <select name="channel" id="channel">
+                <option value="Search">Web Search</option>
+                <option value="word-of-mouth">Word of Mouth</option>
+                <option value="other">Other</option>
+              </select>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>How Should we reply?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="reply-phone" name="reply" value="phone" />
+                        <label for="reply-phone">Call me</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="reply-email" name="reply" value="email" />
+                        <label for="reply-email">Send me an email</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="reply-none" name="reply" value="none" />
+                        <label for="reply-none">Don't reply</label>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <input type="checkbox" id="Number" name="reply" />
+                <label for="Number">Accept Terms</label>
+            </section>
+
+            <section>
+                <button type="reset">Clear</button>
+                <button type="submit">Submit</button>
+            </section>
+        </form>
+        <footer></footer>
+    </main>
+</body>
+
+</html>
