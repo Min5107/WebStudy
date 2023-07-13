@@ -31,7 +31,7 @@
                     </li>
                     <li>
                         <label for="Message">Your Message</label>
-                        <textarea name="" id="Message" required minlength="10" maxlength="200" rows="8"></textarea>
+                        <textarea name="" id="Message" required minlength="10" maxlength="200" rows="7"></textarea>
                     </li>
                     <li>
                         <label for="channel">How did you find us?</label>
@@ -45,29 +45,30 @@
             </section>
             <section>
                 <h2>How Should we reply?</h2>
-                <ul>
-                    <li>
+                <ul >
+                    <li class="inline-control">
                         <input type="radio" id="reply-phone" name="reply" value="phone" />
                         <label for="reply-phone">Call me</label>
                     </li>
-                    <li>
+                    <li class="inline-control">
                         <input type="radio" id="reply-email" name="reply" value="email" />
                         <label for="reply-email">Send me an email</label>
-                    </li>
-                    <li>
+                    </li >
+                    <li class="inline-control">
                         <input type="radio" id="reply-none" name="reply" value="none" />
                         <label for="reply-none">Don't reply</label>
                     </li>
                 </ul>
             </section>
-            <section>
+            <hr>
+            <section class="inline-control">
                 <input type="checkbox" id="Number" name="reply" />
                 <label for="Number">Accept Terms</label>
             </section>
 
             <section id="button">
-                <button type="reset">Clear</button>
-                <button type="submit">Submit</button>
+                <button type="reset" class="btn-empty">Clear</button>
+                <button type="submit" class="btn-filled">Submit</button>
             </section>
         </form>
         <footer></footer>
